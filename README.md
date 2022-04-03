@@ -328,3 +328,7 @@ Undefined symbol: __swift_FORCE_LOAD_$_swiftWebKit
             <true/>
 	//Add this line
 </dict>
+
+
+32. Modal bottom
+https://github.com/jeremybarbet/react-native-modalize
