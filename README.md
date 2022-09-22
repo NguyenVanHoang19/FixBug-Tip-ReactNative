@@ -332,3 +332,6 @@ Undefined symbol: __swift_FORCE_LOAD_$_swiftWebKit
 
 32. Modal bottom
 https://github.com/jeremybarbet/react-native-modalize
+
+33. Web logo design
+https://www.freepik.com/free-photos-vectors/beauty-logo
