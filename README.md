@@ -335,3 +335,6 @@ https://github.com/jeremybarbet/react-native-modalize
 
 33. Web logo design
 https://www.freepik.com/free-photos-vectors/beauty-logo
+
+34. QR code
+https://www.google.com/amp/s/aboutreact.com/react-native-scan-qr-code/amp/
