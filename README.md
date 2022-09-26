@@ -338,3 +338,6 @@ https://www.freepik.com/free-photos-vectors/beauty-logo
 
 34. QR code
 https://aboutreact.com/react-native-scan-qr-code/
+
+35. Slider
+https://youtu.be/otr_x0wKgvU
