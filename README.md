@@ -341,3 +341,5 @@ https://aboutreact.com/react-native-scan-qr-code/
 
 35. Slider
 https://youtu.be/otr_x0wKgvU
+
+https://github1s.com/KPS250/React-Native-FlatList-Slider/blob/HEAD/src/FlatListSlider.js
