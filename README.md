@@ -349,4 +349,4 @@ https://github1s.com/eramudeep/react-native-ecommerce
  37. Scroll layout
 https://medium.com/@linjunghsuan/implementing-a-collapsible-header-with-react-native-tab-view-24f15a685e07
 38. React nativ rich text editor
-https://github.com/wix/react-native-zss-rich-text-editor
+https://www.npmjs.com/package/react-native-pell-rich-editor
