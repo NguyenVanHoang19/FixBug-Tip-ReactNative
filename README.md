@@ -351,3 +351,14 @@ https://medium.com/@linjunghsuan/implementing-a-collapsible-header-with-react-na
 38. React nativ rich text editor
 https://www.npmjs.com/package/react-native-pell-rich-editor
 39. React native camera vision build xcode crash app: https://github.com/mrousavy/react-native-vision-camera/issues/1244
+* The JS function will have the same name as the given Objective-C function, but with a "__" prefix.
+ * Make sure to add that function to the babel.config.js under reanimated's "globals" option, and add TypeScript type declarations.
+ */
+#define VISION_EXPORT_FRAME_PROCESSOR(frame_processor)                              \
+                                                                                    \
++(void)load                                                                         \
+{                                                                                   \
+  [FrameProcessorPluginRegistry addFrameProcessorPlugin:@"__" @ #frame_processor callback:^id(Frame* frame, NSArray<id>* args) { \
+    return frame_processor(frame, args);                                           \
+  }];                                                                               \
+}
