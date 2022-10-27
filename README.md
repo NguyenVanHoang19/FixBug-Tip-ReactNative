@@ -350,3 +350,4 @@ https://github1s.com/eramudeep/react-native-ecommerce
 https://medium.com/@linjunghsuan/implementing-a-collapsible-header-with-react-native-tab-view-24f15a685e07
 38. React nativ rich text editor
 https://www.npmjs.com/package/react-native-pell-rich-editor
+39. React native camera vision build xcode crash app: https://github.com/mrousavy/react-native-vision-camera/issues/1244
