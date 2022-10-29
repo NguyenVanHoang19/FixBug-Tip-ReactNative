@@ -362,3 +362,5 @@ https://www.npmjs.com/package/react-native-pell-rich-editor
     return frame_processor(frame, args);                                           \
   }];                                                                               \
 }
+
+40: https://github.com/hoaphantn7604/react-native-template-components
