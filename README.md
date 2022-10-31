@@ -367,3 +367,5 @@ https://www.npmjs.com/package/react-native-pell-rich-editor
 
 41: https://github.com/MasonLe2497/RNChallengeV3?fbclid=IwAR2VuhotjOLeDxXmt-qMFIEhCtQEEeCSFRtSPCtgXX1mCvfAh7zuKnZ2KQs
 42: https://github.com/MasonLe2497/BoilerplateReactNative?fbclid=IwAR3XFeVrXEOa9IEcOjjvAaBQ77riPhCCpuufJz9zX9RSub0MhBNMAFO6NvY
+
+43: https://github.com/suusofttruongnv/react-native-wheel-of-fortune/blob/master/src/imageReward.js
