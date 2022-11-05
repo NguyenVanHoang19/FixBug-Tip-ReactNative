@@ -369,3 +369,5 @@ https://www.npmjs.com/package/react-native-pell-rich-editor
 42: https://github.com/MasonLe2497/BoilerplateReactNative?fbclid=IwAR3XFeVrXEOa9IEcOjjvAaBQ77riPhCCpuufJz9zX9RSub0MhBNMAFO6NvY
 
 43: https://github.com/suusofttruongnv/react-native-wheel-of-fortune/blob/master/src/imageReward.js
+
+44: Web kéo thả UI react-native: https://redxor.com/?fbclid=IwAR0Kp6Hc4JcO2i5yjlmmtMt9YM555KX0NeLa4j-vz_WECDLRgGkk7eg9xoE
