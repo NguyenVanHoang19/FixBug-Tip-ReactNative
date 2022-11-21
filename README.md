@@ -371,3 +371,11 @@ https://www.npmjs.com/package/react-native-pell-rich-editor
 43: https://github.com/suusofttruongnv/react-native-wheel-of-fortune/blob/master/src/imageReward.js
 
 44: Web kéo thả UI react-native: https://redxor.com/?fbclid=IwAR0Kp6Hc4JcO2i5yjlmmtMt9YM555KX0NeLa4j-vz_WECDLRgGkk7eg9xoE
+
+45: Useful adb logcat commands when working with react native
+adbCommands.txt
+// useful to debug js code errors
+adb logcat "*:S" ReactNative:V ReactNativeJS:V
+
+// useful to debug native errors (when the app won't even start)
+adb logcat "*:E"
