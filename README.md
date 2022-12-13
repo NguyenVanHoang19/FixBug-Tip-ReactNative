@@ -379,3 +379,7 @@ adb logcat "*:S" ReactNative:V ReactNativeJS:V
 
 // useful to debug native errors (when the app won't even start)
 adb logcat "*:E"
+
+46. Generate key hash
+keytool -keystore app/debug.keystore -list -v
+-> Copy SHA1 to https://tomeko.net/online_tools/hex_to_base64.php
