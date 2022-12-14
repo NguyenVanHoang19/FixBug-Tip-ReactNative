@@ -383,3 +383,7 @@ adb logcat "*:E"
 46. Generate key hash
 keytool -keystore app/debug.keystore -list -v
 -> Copy SHA1 to https://tomeko.net/online_tools/hex_to_base64.php
+47. Modal bottom sheet
+https://www.youtube.com/watch?v=KvRqsRwpwhY
+
+https://github.com/enzomanuelmangano/what-about-gestures/tree/main/01-bottom-sheet
