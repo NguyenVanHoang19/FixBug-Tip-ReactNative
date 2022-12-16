@@ -387,3 +387,5 @@ keytool -keystore app/debug.keystore -list -v
 https://www.youtube.com/watch?v=KvRqsRwpwhY
 
 https://github.com/enzomanuelmangano/what-about-gestures/tree/main/01-bottom-sheet
+
+48. https://onexlab-io.medium.com/no-bundle-url-present-fixed-ca2688a80f66
