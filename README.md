@@ -389,3 +389,51 @@ https://www.youtube.com/watch?v=KvRqsRwpwhY
 https://github.com/enzomanuelmangano/what-about-gestures/tree/main/01-bottom-sheet
 
 48. https://onexlab-io.medium.com/no-bundle-url-present-fixed-ca2688a80f66
+
+49. Hooks loadmore 
+
+import { useState, useEffect } from 'react';
+
+const useLoadMore = (loadData, hasMore = true) => {
+  const [items, setItems] = useState([]);
+  const [page, setPage] = useState(1);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    // Gọi hàm loadData() khi component được mount
+    loadData();
+  }, []);
+
+  const handleLoadMore = async () => {
+    // Nếu đang load hoặc không còn dữ liệu thì không làm gì cả
+    if (loading || !hasMore) return;
+
+    // Thiết lập trạng thái loading là true
+    setLoading(true);
+
+    // Lấy dữ liệu từ server với các tham số truyền vào (vd: limit, offset)
+    // Bạn có thể sử dụng axios hoặc fetch để gửi request lên server
+    // const response = await axios.get(`${API_URL}?limit=10&offset=${page * 10}`);
+    // const data = response.data;
+
+    // Tạm thời sử dụng dữ liệu giả để test
+    const data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+    // Thêm dữ liệu mới vào danh sách hiện tại
+    setItems([...items, ...data]);
+
+    // Tăng giá trị page lên 1
+    setPage(page + 1);
+
+    // Nếu không còn dữ liệu nữa thì thiết lập hasMore là false
+    if (data.length < 10) setHasMore(false);
+
+    // Thiết lập trạng thái loading là false
+    setLoading(false);
+  };
+
+  return [items, loading, handleLoadMore];
+};
+
+export default useLoadMore;
+
