@@ -438,3 +438,5 @@ const useLoadMore = (loadData, hasMore = true) => {
 export default useLoadMore;
 
 50. https://www.youtube.com/watch?v=u2iYLXcqqdA
+
+51. React native calendar range picker: https://github.com/huurray/react-native-calendar-range-picker?fbclid=IwAR3h9UpA4Kgs_qtzFmAU6PnHbrXe6TWH5SPmrzR3ZB6e2_eFM2_uwExmQow
